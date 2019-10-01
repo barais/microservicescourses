@@ -1,12 +1,90 @@
-### Modern Software Architecture
 
-- Server Side: Spring Boot, Express, api-platform
-- Client Side: Angular, React, Vue
-<img src="resources/img8.png" width="100%">
+# Who am I
+
+[Olivier Barais](http://olivier.barais.fr/) , Prof. Univ. Rennes 1, [IRISA DiverSE team]([http](http://www.diverse-team.fr/)
+
+- Validating complex distributed system: from continuous integration to chaos engineering
+   - Architecture of a distributed system
+   - Introduction to devops
+   - Introduction to chaos engineering
+
+<p class="current-visible"
+style="position:absolute; right:-100px; top:260px;">
+<img src="resources/me.png" width="70%"></p>
 
 ---
 
-### Cloud native application
+### Context: HD-Services
+
+- Heterogeneous and Distributed Services
+   - Heterogeneous: The infrastructure on which the service runs is composed of a set of different nodes and networks.
+      - From microcontroller based sensors and devices to cloud.
+   - Distributed: The implementation of the services is composed of a set of independent processes communicating asynchronously.
+      - Truly distributed services implementation is required in order to provide useful and reliable services which take advantage of the infrastructure.
+
+
+----
+
+### Examples
+
+- Health domain and ambient assisted living
+- Energy domain and smart grids
+- Environmental monitoring and oil and gas
+- Safety in hazardous environments
+- Intelligent Transport Systems (ITS)
+- ...
+
+<img src="resources/context.png" width="70%">
+
+----
+
+
+### Distributing the implementation
+
+- The service implementation is distributed to exploit the infrastructure
+
+<img src="resources/context1.png" width="70%">
+
+
+----
+
+### Benefits of HD-Services
+
+- Complex to develop, lots of different skills involved but…
+   - Allows fully exploiting the features of each platforms
+   - Allow for local and/or decentralized decision making
+   - Robust to partial and/or temporary failures
+   - Push processing close to data sources
+   - Allow for real-time and critical services
+   - Can scale in a "big data" context
+
+> In practice for more and  more real-world services are HD-Services
+
+----
+
+### What are the problems?
+
+- Large heterogeneous teams need to collaborate
+   - A service architect / developer
+   - Many "platform experts"
+   - Complex and expensive
+   - Unavailable to small actors
+- Service maintenance and evolutions
+- Infrastructure is dynamic
+- Constant evolution/adaptation
+- (Early) Validation?
+- Software reuse?
+
+> Challenging and expensive
+
+<p class="current-visible"
+style="position:absolute; right:-400px; top:260px;">
+<img src="resources/context2.png" width="40%"></p>
+
+
+---
+
+### Cloud(/fog) native application
 
 <div align="center"><img src="resources/diagram-cloud-native.png" width="40%"></div>
 
@@ -21,145 +99,57 @@
 
 ### Definition
 
-- Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model.
-- Cloud-native is about how applications are created and deployed, not where.
+- Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model
+- Cloud-native is about how applications are created and deployed, not where
 - Not related to public or private cloud
 
 ----
 
 ### Benefit
 
-- When companies build and operate applications in a cloud-native fashion, they bring new ideas to market faster and respond sooner to customer demands.
+- When companies build and operate applications in a cloud-native fashion, they bring new ideas to market faster and respond sooner to customer demands
 
----
+----
 
 ### Cloud native application
 
 <div align="center"><img src="resources/diagram-cloud-native.png" width="40%"></div>
 
+----
+
+### Cloud native application
+
+- **Microservices**: Architectural principle of distributed apps
+- **Containers**: Shipping, and OS mechanism
+- **DEVOPS**: Objectives, team mindset, continuous feedback loop
+- **Continuous delivery**: mechanics
+
 <p class="current-visible"
-style="position:absolute; left:265px; top:295px;">
-<img src="resources/redcircle.svg" width="100%"></p>
-
-
-----
-
-### Microservices
+style="position:absolute; right:-420px; top:-150px;">
+<img src="resources/diagram-cloud-native.png" width="20%"></p>
 
 ----
 
 
-### Definition
+### Why spending time to understand these concepts
 
-> A microservices architecture consists of a collection of small, autonomous services. Each service is self-contained and should implement a single business capability.
 
-----
-
-### Definition 2
-
-> Microservices is an architectural approach to developing an application as a collection of small services; each service implements business capabilities, runs in its own process and communicates via HTTP APIs or messaging.
+<div align="center"><img src="resources/devops7.png" width="80%"></div>
 
 
 ----
 
-<!-- .slide: data-background="./resources/road.png" -->
 
+### Talk outline
 
-----
-
-<!-- .slide: data-background="./resources/road1.png" -->
-
-
-----
-
-### Characteristics of a Microservice
-
-- Services are small, independent, and loosely coupled.
-- Each service is a separate codebase.
-- Services can be deployed independently.
-- Services are responsible for persisting their own data or external state.
-- Services communicate with each other by using well-defined APIs.
-- Services don't need to share the same technology stack, libraries, or frameworks.
-
-----
-
-### Microservices Overview
-
-<div align="center"><img src="resources/road2.png" width="80%"></div>
-
-----
-
-### Other Components in a Typical Microservices Architecture
-
-- Management
-- Service Discovery
-- API Gateway
-
-----
-
-### Advantages of Using an API gateway
-
-- It decouples clients from services. Services can be versioned or refactored without needing to update all of the clients.
-- Services can use messaging protocols that are not web friendly, such as AMQP.
-- The API Gateway can perform other cross-cutting functions such as authentication, logging, SSL termination, and load balancing.
-
-----
-
-### When to use this architecture
-
-- Large applications that require a high release velocity.
-- Complex applications that need to be highly scalable.
-- Applications with rich domains or many subdomains.
-- An organization that consists of small development teams.
-
-----
-
-### Benefits
-
-- Independent deployments
-- Independent development
-- Small, focused teams
-- Fault isolation
-- Mixed technology stacks
-- Granular scaling
-
-----
-
-### Challenges
-
-- Complexity
-- Development and test
-- Lack of governance
-- Network congestion and latency
-- Data integrity
-- Management
-- Versioning
-- Skillset
-
-----
-
-### Best Practices
-
-- Model services around the business domain.
-- Decentralize everything
-- Data storage should be private to the service that owns the data
-- Services communicate through well-designed APIs
-- Avoid coupling between services
-- Offload cross-cutting concerns, such as authentication and - SSL termination, to the gateway.
-- Keep domain knowledge out of the gateway
-- Services should have loose coupling and high functional cohesion
-- Isolate failures
-
-----
-
-### Best Practices
-
-- Model services around the business domain.
-- Decentralize everything
-- Data storage should be private to the service that owns the data
-- Services communicate through **well-designed APIs**
-- Avoid coupling between services
-- Offload cross-cutting concerns, such as authentication and - SSL termination, to the gateway.
-- Keep domain knowledge out of the gateway
-- Services should have loose coupling and high functional cohesion
-- Isolate failures
+- Micro-Services
+   - API management
+- Continuous delivery
+   - Continuous integration
+   - Continuous deployment
+   - Build tool
+- DevOps
+- Cloud native application validation
+   - You mean Bugs ?
+   - Verification and Validation using tests
+   - Chaos engineering

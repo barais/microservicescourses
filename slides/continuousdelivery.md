@@ -137,11 +137,16 @@ Can include other tasks such as:
 - Dedicated (communal) Integration Machine
 
 ----
+### Technical pre-requisites
+
+<div align="center"><img src="resources/ci5.png" width="70%"></div>
+
+----
 
 ### Social pre-requisites
 
 - Developer discipline
-   - Continuous means continuous, not ‘once per week’
+   - Continuous means continuous, not 'once per week'
 - Shared ownership
 
 ----
@@ -171,6 +176,41 @@ Can include other tasks such as:
 <div align="center"><img src="resources/ci1.png" width="90%"></div>
 
 ----
+
+### Build manager
+
+A build tool + A dependency management tool
+
+
+- maven, graddle ivy
+- npm, grunt, gulp
+- composer
+- ....
+
+----
+
+### Objectives
+
+- Make the development process visible or transparent
+- Provide an easy way to see the health and status of a project
+- Decreasing training time for new developers
+- Bringing together the tools required in a uniform way
+- Preventing inconsistent setups
+- Providing a standard development infrastructure across projects
+- Focus energy on writing applications
+
+----
+
+### Benefits
+
+- Standardization
+- Fast and easy to set up a powerful build process
+- Dependency management (automatic downloads)
+- Repository management
+- Extensible architecture
+
+----
+
 
 # Show me!
 

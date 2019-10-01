@@ -1,8 +1,10 @@
 [
     "index.md",
     "plan.md",
+    "microservices.md",
     "openapi.md",
-    "continuousdelivery.md",
     "devops.md",
-    "cloudnative.md"
+    "continuousdelivery.md",
+    "cloudnative.md",
+    "chaos.md"
 ]

@@ -22,6 +22,14 @@
 - Process Disposability: Containerized applications must be as ephemeral as possible and ready to be replaced by another container instance at any point in time
 - Runtime Confinement: Every container must declare its resource requirements and restrict resource use to the requirements indicated
 
+
+----
+
+# Monitoring tools
+
+- [https://www.monperrus.net/martin/monitoring.pdf](https://www.monperrus.net/martin/monitoring.pdf)
+
+
 ----
 
 ### Cloud native and impact on developer community: the case of quarkus
