@@ -116,7 +116,13 @@ style="position:absolute; left:500px; top:30px;">
 ----
 
 ### OpenAPI and API gateway
-<p align="left">API Gateway: a server that acts as an API front-end, receives API requests, enforces throttling and security policies, passes requests to the back-end service and then passes the response back to the requester. Often support:</p>
+<p align="left">API Gateway: a server that acts as an API front-end, receives API requests, enforces throttling and security policies, passes requests to the back-end service and then passes the response back to the requester.</p>
+
+----
+
+### OpenAPI and API gateway
+
+<p align="left"> Often support:</p>
 
 - analytics
 - caching

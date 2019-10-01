@@ -11,7 +11,7 @@ style="position:absolute; left:492px; top:58px;">
 <img src="resources/redcircle.svg" width="100%"></p>
 
 ----
-Outline
+### Outline
 
 - What?
 - Why?
