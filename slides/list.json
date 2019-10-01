@@ -6,5 +6,6 @@
     "devops.md",
     "continuousdelivery.md",
     "cloudnative.md",
-    "chaos.md"
+    "chaos.md",
+    "references.md"
 ]

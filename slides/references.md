@@ -1,0 +1,3 @@
+- https://www.se-radio.net/
+- https://github.com/KTH/devops-course
+- Gene Kim, Patrick Debois, John Willis, and Jez Humble. 2016. The Devops Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations. IT Revolution Press.
