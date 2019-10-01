@@ -125,7 +125,7 @@ Architectural view
 - Data storage should be private to the service that owns the data
 - Services communicate through well-designed APIs
 - Avoid coupling between services
-- Offload cross-cutting concerns, such as authentication and - SSL termination, to the gateway.
+- Offload cross-cutting concerns, such as authentication and - SSL termination, to the gateway or IdP
 - Keep domain knowledge out of the gateway
 - Services should have loose coupling and high functional cohesion
 - Isolate failures
