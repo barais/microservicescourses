@@ -39,19 +39,6 @@ Architectural view
 
 ----
 
-<!-- .slide: data-background="./resources/road.png" -->
-
-<h1 style="color:white;"> From a monolithic application</h1>
-
-----
-
-<!-- .slide: data-background="./resources/road1.png" -->
-
-<h1 style="color:white;"> to modular service</h1>
-
-
-----
-
 ### Characteristics of a Microservice
 
 - Services are small, independent, and loosely coupled
@@ -63,6 +50,18 @@ Architectural view
 
 ----
 
+<!-- .slide: data-background="./resources/road.png" -->
+
+<h1 style="color:white;"> From a monolithic application</h1>
+
+----
+
+<!-- .slide: data-background="./resources/road1.png" -->
+
+<h1 style="color:white;"> to modular service</h1>
+
+----
+
 ### Microservices Overview
 
 <div align="center"><img src="resources/road2.png" width="80%"></div>
@@ -71,9 +70,10 @@ Architectural view
 
 ### Other Components in a Typical Microservices Architecture
 
-- Management
 - Service Discovery
 - API Gateway
+- Management
+- Identity provider
 
 ----
 

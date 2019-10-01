@@ -1,7 +1,7 @@
 
 # Who am I
 
-[Olivier Barais](http://olivier.barais.fr/) , Prof. Univ. Rennes 1, [IRISA DiverSE team]([http](http://www.diverse-team.fr/)
+[Olivier Barais](http://olivier.barais.fr/) , Prof. Univ. Rennes 1, [IRISA/INRIA DiverSE]([http](http://www.diverse-team.fr/)
 
 - Validating complex distributed system: from continuous integration to chaos engineering
    - Architecture of a distributed system
@@ -18,7 +18,7 @@ style="position:absolute; right:-100px; top:260px;">
 
 - Heterogeneous and Distributed Services
    - Heterogeneous: The infrastructure on which the service runs is composed of a set of different nodes and networks
-      - From microcontroller based sensors and devices to cloud.
+      - From microcontroller based sensors and devices to cloud
    - Distributed: The implementation of the services is composed of a set of independent processes communicating asynchronously
       - Truly distributed services implementation is required in order to provide useful and reliable services which take advantage of the infrastructure
 
@@ -31,6 +31,7 @@ style="position:absolute; right:-100px; top:260px;">
 - Environmental monitoring and oil and gas
 - Safety in hazardous environments
 - Intelligent Transport Systems (ITS)
+- Smart city
 - ...
 
 <img src="resources/context.png" width="70%">
@@ -50,7 +51,7 @@ style="position:absolute; right:-100px; top:260px;">
 ### Benefits of HD-Services
 
 - Complex to develop, lots of different skills involved but...
-   - Allows fully exploiting the features of each platforms
+   - Allows fully exploiting the features of each platform
    - Allow for local and/or decentralized decision making
    - Robust to partial and/or temporary failures
    - Push processing close to data sources
@@ -143,11 +144,11 @@ style="position:absolute; right:-420px; top:-150px;">
 
 - Micro-Services
    - API management
+- DevOps
 - Continuous delivery
    - Continuous integration
    - Continuous deployment
    - Build tool
-- DevOps
 - Cloud native application validation
    - You mean Bugs ?
    - Verification and Validation using tests
