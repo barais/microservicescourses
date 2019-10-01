@@ -178,3 +178,10 @@ style="position:absolute; right:-900px; top:0px;">
    - Continuous Deployment
    - GameDay
 
+----
+### The adoption of DevOps is being driven by factors
+
+- Use of **agile** and other development processes and methodologies
+- Demand for an **increased rate of production releases** from application and business unit stakeholders
+- Wide availability of **virtualized and cloud infrastructure** from internal and external providers
+- Increased usage of data center **automation and configuration management tools**
