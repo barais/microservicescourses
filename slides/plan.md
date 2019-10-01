@@ -17,11 +17,10 @@ style="position:absolute; right:-100px; top:260px;">
 ### Context: HD-Services
 
 - Heterogeneous and Distributed Services
-   - Heterogeneous: The infrastructure on which the service runs is composed of a set of different nodes and networks.
+   - Heterogeneous: The infrastructure on which the service runs is composed of a set of different nodes and networks
       - From microcontroller based sensors and devices to cloud.
-   - Distributed: The implementation of the services is composed of a set of independent processes communicating asynchronously.
-      - Truly distributed services implementation is required in order to provide useful and reliable services which take advantage of the infrastructure.
-
+   - Distributed: The implementation of the services is composed of a set of independent processes communicating asynchronously
+      - Truly distributed services implementation is required in order to provide useful and reliable services which take advantage of the infrastructure
 
 ----
 
@@ -50,7 +49,7 @@ style="position:absolute; right:-100px; top:260px;">
 
 ### Benefits of HD-Services
 
-- Complex to develop, lots of different skills involved but…
+- Complex to develop, lots of different skills involved but...
    - Allows fully exploiting the features of each platforms
    - Allow for local and/or decentralized decision making
    - Robust to partial and/or temporary failures
