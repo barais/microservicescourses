@@ -4,7 +4,8 @@
 
 ### API
 
-API: interface or communication protocol between a client and a server intended to simplify the building of client-side software. It is a “**contract**” between the client and the server, such that if the client makes a request in a specific format, it will always get a response in a specific format or initiate a defined action.
+- API: interface or communication protocol between a client and a server intended to simplify the building of client-side software
+- It is a “**contract**” between the client and the server, such that if the client makes a request in a specific format, it will always get a response in a specific format or initiate a defined action
 
 ----
 
