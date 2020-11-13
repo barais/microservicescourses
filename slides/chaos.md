@@ -274,7 +274,7 @@ How to qualify the quality of tests
 
 ### Example
 
-<div align="center"><img src="resources/chaos25.png" width="100%"></div>
+<div align="center"><img src="resources/chaos25.png" width="200%"></div>
 
 
 ----
