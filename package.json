@@ -1,5 +1,5 @@
 {
-  "name": "chaos-engineering",
+  "name": "microservicescourses",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:barais/cloudnativetochaosengineering.git"
+    "url": "git@github.com:barais/microservicescourses.git"
 
   },
   "scripts": {
